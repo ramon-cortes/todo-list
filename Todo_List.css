@@ -1,0 +1,40 @@
+body {
+  font-family: 'Comic Sans MS';
+}
+
+.input {
+  font-family: 'Comic Sans MS';
+}
+
+.todo-item {
+  margin: 3px;
+  padding: 5px;
+  border-style: outset;
+  border-radius: 10px;
+  background-color: rgb(255, 230, 0);
+}
+
+
+.todo-item:hover {
+  cursor: pointer;
+  background-color: rgb(51, 23, 3);  
+  color: azure;
+}
+
+.app {
+  background-color: coral;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.form {
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+
+.list {
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(221, 205, 115);
+}

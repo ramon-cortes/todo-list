@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Todo List</title>
+
+    <link rel="stylesheet" href="./Todo_List.css">
+
+    <!-- don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js" crossorigin></script>
+  </head>
+
+<body>
+
+  <h1>Todo List</h1>
+
+    <!-- We will put our React component inside this div. -->
+    <div id="root"></div>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+
+
+    <!-- Load our React component. -->
+    <script defer type="text/babel" src="./Form.js"></script>
+    <script defer type="text/babel" src="./Todo_component.js"></script>
+    <script defer type="text/babel" src="./Todo_List.js"></script>
+    
+
+
+</body>
+
+</html>
